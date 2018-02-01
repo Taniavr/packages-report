@@ -1,6 +1,9 @@
 ## create a data frame from data/installed-packages.csv
 ## with, e.g., readr::read_csv() or read.csv()
 
+here( "Desktop", "packages-report", "data","installed-packages.csv" )
+
+read.csv( file="/Users/tvillavicencio/Desktop", header=TRUE, sep=",")
 
 ## filter out packages in the default library
 ## keep variables Package and Built
