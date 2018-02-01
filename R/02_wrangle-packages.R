@@ -1,6 +1,7 @@
 ## create a data frame from data/installed-packages.csv
 ## with, e.g., readr::read_csv() or read.csv()
 
+
 ## filter out packages in the default library
 ## keep variables Package and Built
 ## if you use dplyr, code like this will work:
